@@ -11,8 +11,8 @@
 # mlflow==2.10.0 
 
 streamlit==1.31.0
-torch==2.2.2+cpu
-torchvision==0.17.2+cpu
+torch==2.2.2+cpu --index-url https://download.pytorch.org/whl/cpu
+torchvision==0.17.2+cpu --index-url https://download.pytorch.org/whl/cpu
 git+https://github.com/openai/CLIP.git
 lightgbm==4.2.0
 numpy==1.26.4
