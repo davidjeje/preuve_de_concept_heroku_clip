@@ -60,3 +60,19 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.bak
+
+# streamlit
+.streamlit/
+
+# ===== Docker =====
+.dockerignore
+
+# ===== Heroku =====
+.heroku/
+
+# ===== Autres =====
+*.bak
+*.tmp
+*.temp
+.cache/
+.pytest_cache/
